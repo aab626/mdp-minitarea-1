@@ -77,5 +77,8 @@ public class Main {
         System.out.println(pFire);
         System.out.println("fire ko? " + pFire.isKnockedOut());
 
+        TypeFire f = new TypeFire();
+        System.out.println(pFire.getType().getClass() == f.getClass());
+
     }
 }
