@@ -12,7 +12,7 @@ public class PokemonTest {
     Pokemon pokemonFireDummy = new Pokemon("Charma", "Charmander", 20, new TypeFire());
     Pokemon pokemonWaterDummy = new Pokemon("Squirt", "Squirtle", 20, new TypeWater());
     Pokemon pokemonPlantDummy = new Pokemon("Bulba", "Bulbasaur", 20, new TypePlant());
-
+    
     @Test
     public void getName() {
         assertEquals("Charma", pokemonFire.getName());
